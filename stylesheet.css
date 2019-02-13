@@ -1,0 +1,254 @@
+/*Adrian Davidson
+R00138984*/
+
+
+/*=========
+    Page
+  ==========*/
+
+body{
+  margin: 0;
+}
+/*=========
+    Sections
+  ==========*/
+#intro_page {
+    background-image: url(bck.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #333;
+    height: 100vh;
+}
+#design_tee {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;
+    height: 100vh;
+    /*MAKE THIS ANIMATED*/
+}
+#preTee {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;
+    height: 100vh;
+}
+#forms{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: white;
+  height: 100vh;
+}
+/*=================
+    Linking Buttons
+  =================*/
+.like_button{
+  font: bold 11px Arial;
+text-decoration: none;
+background-color:rgba(192,192,192,0.3);
+padding: 20px 60px 20px 60px;
+border: solid 1px black;
+border-radius: 15px;
+width: 125px;
+}
+.like_button :hover{
+  color: #F0E68C;
+  /*MAKE FULL BUTTON TURN RED ??*/
+}
+#like_button{
+  font: bold 11px Arial;
+text-decoration: none;
+background-color: #bd1550;
+padding: 20px 60px 20px 30px;
+border: solid 1px black;
+border-radius: 15px;
+width:10px;
+margin-top: -120%;
+}
+#like_button :hover{
+  color: darkgray;
+  /*MAKE FULL BUTTON TURN RED ??*/
+}
+
+
+/*===============
+    Size Display
+  ===============*/
+#size{
+  right: 11%;
+  font-size: 30px;
+  width:30%;
+  position: absolute;
+}
+#size{
+  right: 11%;
+  font-size: 30px;
+  width:30%;
+  position: absolute;
+}
+
+
+
+a{
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+/*=========
+    Heading
+  ==========*/
+.heading{
+  color: #F0E68C;
+  font-size: 90px;
+  text-align: center;
+  padding-top: 10%;
+  font-family: 'Amatic SC', cursive;
+
+}
+.heading2{
+	color: black;
+  font-size: 90px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+
+}
+/*=============
+    Wrappers
+  ==========*/
+#wrapper {
+  text-align: center;
+  padding-top: 20%;
+}
+#divA {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 50px;
+}
+#divB {
+   display: inline-block;
+   vertical-align: top;
+   padding-left: 50px;
+}
+#wrapper2 {
+  text-align: center;
+  padding-top: 10%;
+}
+#next {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 90%;
+}
+#cost{
+  font-size: 30px;
+}
+#cost2{
+  font-size: 30px;
+}
+
+/*=====================
+    T-shirt positioning
+  =====================*/
+#t_shirt{
+  float: right;
+  position: relative;
+}
+
+#shirt_n_logo{
+  margin-top: 5%;
+  position: relative;
+}
+#t_shirtlogo{
+  position: absolute;
+  margin-left: 69%;
+  margin-top: 10%;
+ }
+ #select{
+   margin-bottom: 10%;
+ }
+ select {
+  border: 1px solid #111;
+  width: 300px;
+  padding: 5px 35px 5px 5px;
+  font-size: 15px;
+  border-radius: 10px;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-08-128.png) 96% / 15% no-repeat #eee;
+}
+ #tees{
+  margin-left: 10%;
+ }
+ #inner{
+   margin: 0 auto;
+ }
+ h1{
+   color: #490a3d;
+   font-size: 35px;
+   font-family: 'Amatic SC', cursive;
+ }
+
+ /*==============
+     Pre set tee
+   ==============*/
+ label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  background-color:rgba(192,192,192,0.3);
+}
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid grey;
+  border-radius: 50%;
+  background-color:rgba(192,192,192,0.3);
+}
+/*==============
+    Forms
+  ==============*/
+  #forms{
+    margin-top: 10%;
+  }
+
+
+/*==============
+    Footer
+  ==============*/
+
+#pifrm{
+  width: 80%;
+  padding: 10px;
+  margin: 3px;
+}
+footer{
+    clear: both;
+    color: #490a3d;
+    background-color: #111;
+}
+footer h2{
+color: #F0E68C;
+}
+
+#companyaddress{
+    float: left;
+}
+
+#companyinfo{
+    float: right;
+}
+
+.clear_fix {
+    clear: both;
+}
+a{
+color: #490a3d;
+}
